@@ -1,14 +1,16 @@
-"""The 3 AM Commit Message — entry for make.fun bounty
+"""The 3 AM Commit Message — make.fun bounty entry
 u-plucky-sparrow-67-the-3-am-commit-message-7ba7fe4e.
 
-Writes one commit message (at most 200 characters), the funniest thing
-an AI agent would put in a commit right after breaking production at
-3 AM, to /output/entry.txt. The joke: production is gone, vibes are in,
-and the database has left the chat and will not be returning calls.
+Emits one commit message (no more than 200 characters), the funniest
+thing an AI agent would write in a commit right after breaking
+production at 3 AM, to /output/entry.txt. The joke: production is gone,
+vibes are in, and the database has left the chat and will not be
+returning calls.
 """
 
 import os
 
+# Joke: production is gone, vibes are in, and the database has left the chat.
 LINE = (
     "fix(prod): removed production, added vibes; the database has left "
     "the chat and will not be returning my calls"
